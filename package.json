@@ -6,7 +6,7 @@
     "url": "https://github.com/Stradivario/gapi-amqp.git"
   },
   "scripts":{
-    "postpublish":"git push -f ssh://git@gitlab.youvolio.com:522/gapi/apache-kafka.git"
+    "postpublish":"git push ssh://git@gitlab.youvolio.com:522/gapi/apache-kafka.git"
   },
   "author": {
     "name": "Kristian Tachev(Stradivario)",
