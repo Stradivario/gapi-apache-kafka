@@ -3,10 +3,10 @@
   "version": "0.7.18",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Stradivario/gapi-amqp.git"
+    "url": "https://github.com/Stradivario/apache-kafka.git"
   },
   "scripts": {
-    "postpublish": "git push ssh://git@gitlab.youvolio.com:522/gapi/apache-kafka.git"
+    "postpublish": "git push ssh://git@gitlab.youvolio.com:522/gapi/apache-kafka.git && git push --tags && git push ssh://git@gitlab.youvolio.com:522/gapi/apache-kafka.git --tags"
   },
   "author": {
     "name": "Kristian Tachev(Stradivario)",
