@@ -1,6 +1,6 @@
 {
   "name": "@gapi/apache-kafka",
-  "version": "0.7.247",
+  "version": "0.7.248",
   "repository": {
     "type": "git",
     "url": "https://github.com/Stradivario/apache-kafka.git"
