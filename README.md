@@ -16,15 +16,17 @@ $ npm install Stradivario/gapi-apache-kafka --save
 
 ## Consuming gapi-apache-kafka
 
+MAINTENANCE NEEDED!! Not updated to version 1.0.0!
+
 ##### Import inside AppModule or CoreModule
 ```typescript
 
-import { GapiModule } from 'gapi';
-import { GapiKafkaModule } from 'gapi-apache-kafka';
+import { Module } from 'gapi';
+import { KafkaModule } from 'gapi-apache-kafka';
 
-@GapiModule({
+@Module({
     imports: [
-        GapiKafkaModule.forRoot({
+        KafkaModule.forRoot({
                 host: '182.10.0.5',
                 port: 9092
             })
